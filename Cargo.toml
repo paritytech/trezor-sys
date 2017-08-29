@@ -1,0 +1,11 @@
+[package]
+description = "Rust code generated from Trezor protocol buffers"
+homepage = "http://parity.io"
+repository = "https://github.com/paritytech/trezor-sys"
+license = "MIT"
+name = "trezor-sys"
+version = "1.0.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+
+[dependencies]
+protobuf = "1.4"
