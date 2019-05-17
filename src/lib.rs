@@ -1,4 +1,1 @@
-extern crate protobuf;
-
-pub mod messages;
-pub mod types;
+include!(concat!(env!("OUT_DIR"), "/trezor.rs"));

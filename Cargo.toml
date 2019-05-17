@@ -6,6 +6,12 @@ license = "MIT"
 name = "trezor-sys"
 version = "1.0.0"
 authors = ["Parity Technologies <admin@parity.io>"]
+edition = "2018"
+build = "build.rs"
 
 [dependencies]
-protobuf = "1.4"
+bytes = "0.4.12"
+prost = "0.5.0"
+
+[build-dependencies]
+prost-build = "0.5.0"

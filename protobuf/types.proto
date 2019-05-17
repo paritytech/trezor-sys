@@ -1,3 +1,5 @@
+syntax = "proto2";
+
 /**
  * Types for TREZOR communication
  *
@@ -5,9 +7,7 @@
  * @version	1.2
  */
 
-// Sugar for easier handling in Java
-option java_package = "com.satoshilabs.trezor.lib.protobuf";
-option java_outer_classname = "TrezorType";
+package trezor;
 
 import "google/protobuf/descriptor.proto";
 
